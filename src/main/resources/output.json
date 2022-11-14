@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 1,
+    "brand": "Chrysler",
+    "model": "Concorde",
+    "color": "Goldenrod",
+    "weight": 4864,
+    "origin": "Croatia",
+    "date": {
+      "year": 2019,
+      "month": 8,
+      "day": 24
+    }
+  },
+  {
+    "id": 2,
+    "brand": "Jaguar",
+    "model": "XJ Series",
+    "color": "Pink",
+    "weight": 2795,
+    "origin": "Poland",
+    "date": {
+      "year": 2015,
+      "month": 11,
+      "day": 7
+    }
+  },
+  {
+    "id": 3,
+    "brand": "Mitsubishi",
+    "model": "Mirage",
+    "color": "Blue",
+    "weight": 529,
+    "origin": "Latvia",
+    "date": {
+      "year": 2014,
+      "month": 6,
+      "day": 30
+    }
+  },
+  {
+    "id": 4,
+    "brand": "Honda",
+    "model": "Element",
+    "color": "Teal",
+    "weight": 1235,
+    "origin": "Indonesia",
+    "date": {
+      "year": 2012,
+      "month": 7,
+      "day": 24
+    }
+  },
+  {
+    "id": 5,
+    "brand": "Lexus",
+    "model": "IS-F",
+    "color": "Khaki",
+    "weight": 1446,
+    "origin": "Russia",
+    "date": {
+      "year": 2022,
+      "month": 7,
+      "day": 28
+    }
+  },
+  {
+    "id": 6,
+    "brand": "GMC",
+    "model": "Savana 1500",
+    "color": "Mauv",
+    "weight": 2076,
+    "origin": "China",
+    "date": {
+      "year": 2005,
+      "month": 6,
+      "day": 25
+    }
+  },
+  {
+    "id": 7,
+    "brand": "Mercedes-Benz",
+    "model": "300TE",
+    "color": "Crimson",
+    "weight": 652,
+    "origin": "Indonesia",
+    "date": {
+      "year": 2016,
+      "month": 3,
+      "day": 31
+    }
+  },
+  {
+    "id": 8,
+    "brand": "Audi",
+    "model": "A8",
+    "color": "Mauv",
+    "weight": 1468,
+    "origin": "Peru",
+    "date": {
+      "year": 2011,
+      "month": 7,
+      "day": 12
+    }
+  },
+  {
+    "id": 9,
+    "brand": "Ford",
+    "model": "F-Series",
+    "color": "Red",
+    "weight": 1818,
+    "origin": "Mexico",
+    "date": {
+      "year": 2007,
+      "month": 1,
+      "day": 30
+    }
+  },
+  {
+    "id": 10,
+    "brand": "Cadillac",
+    "model": "Escalade EXT",
+    "color": "Green",
+    "weight": 1684,
+    "origin": "France",
+    "date": {
+      "year": 2007,
+      "month": 12,
+      "day": 18
+    }
+  },
+  {
+    "id": 11,
+    "brand": "Honda",
+    "model": "Passport",
+    "color": "Blue",
+    "weight": 3113,
+    "origin": "Russia",
+    "date": {
+      "year": 2013,
+      "month": 4,
+      "day": 6
+    }
+  },
+  {
+    "id": 12,
+    "brand": "Mitsubishi",
+    "model": "Galant",
+    "color": "Turquoise",
+    "weight": 2115,
+    "origin": "Ukraine",
+    "date": {
+      "year": 2022,
+      "month": 1,
+      "day": 25
+    }
+  },
+  {
+    "id": 13,
+    "brand": "Volkswagen",
+    "model": "Scirocco",
+    "color": "Indigo",
+    "weight": 3514,
+    "origin": "China",
+    "date": {
+      "year": 2019,
+      "month": 7,
+      "day": 14
+    }
+  },
+  {
+    "id": 14,
+    "brand": "Mazda",
+    "model": "B-Series",
+    "color": "Puce",
+    "weight": 2283,
+    "origin": "France",
+    "date": {
+      "year": 2017,
+      "month": 3,
+      "day": 28
+    }
+  },
+  {
+    "id": 15,
+    "brand": "Toyota",
+    "model": "Prius",
+    "color": "Mauv",
+    "weight": 1964,
+    "origin": "Thailand",
+    "date": {
+      "year": 2018,
+      "month": 1,
+      "day": 11
+    }
+  },
+  {
+    "id": 16,
+    "brand": "BMW",
+    "model": "330",
+    "color": "Mauv",
+    "weight": 699,
+    "origin": "Brazil",
+    "date": {
+      "year": 2012,
+      "month": 11,
+      "day": 26
+    }
+  },
+  {
+    "id": 17,
+    "brand": "Maybach",
+    "model": "62",
+    "color": "Aquamarine",
+    "weight": 1673,
+    "origin": "Netherlands",
+    "date": {
+      "year": 2008,
+      "month": 8,
+      "day": 26
+    }
+  },
+  {
+    "id": 18,
+    "brand": "Ford",
+    "model": "Taurus",
+    "color": "Crimson",
+    "weight": 4191,
+    "origin": "Indonesia",
+    "date": {
+      "year": 2016,
+      "month": 10,
+      "day": 6
+    }
+  },
+  {
+    "id": 19,
+    "brand": "Buick",
+    "model": "LaCrosse",
+    "color": "Aquamarine",
+    "weight": 4382,
+    "origin": "Portugal",
+    "date": {
+      "year": 2015,
+      "month": 7,
+      "day": 9
+    }
+  },
+  {
+    "id": 20,
+    "brand": "Infiniti",
+    "model": "G",
+    "color": "Pink",
+    "weight": 1621,
+    "origin": "China",
+    "date": {
+      "year": 2001,
+      "month": 3,
+      "day": 14
+    }
+  },
+  {
+    "id": 21,
+    "brand": "Buick",
+    "model": "LeSabre",
+    "color": "Purple",
+    "weight": 4823,
+    "origin": "Japan",
+    "date": {
+      "year": 2004,
+      "month": 9,
+      "day": 10
+    }
+  },
+  {
+    "id": 22,
+    "brand": "Volkswagen",
+    "model": "Passat",
+    "color": "Khaki",
+    "weight": 3089,
+    "origin": "Panama",
+    "date": {
+      "year": 2010,
+      "month": 3,
+      "day": 14
+    }
+  },
+  {
+    "id": 23,
+    "brand": "Bentley",
+    "model": "Continental Flying Spur",
+    "color": "Crimson",
+    "weight": 1972,
+    "origin": "Honduras",
+    "date": {
+      "year": 2005,
+      "month": 3,
+      "day": 3
+    }
+  },
+  {
+    "id": 24,
+    "brand": "Porsche",
+    "model": "968",
+    "color": "Mauv",
+    "weight": 1159,
+    "origin": "China",
+    "date": {
+      "year": 2021,
+      "month": 1,
+      "day": 8
+    }
+  },
+  {
+    "id": 25,
+    "brand": "GMC",
+    "model": "Sierra 3500",
+    "color": "Crimson",
+    "weight": 3225,
+    "origin": "Indonesia",
+    "date": {
+      "year": 2012,
+      "month": 6,
+      "day": 13
+    }
+  },
+  {
+    "id": 26,
+    "brand": "Dodge",
+    "model": "Dakota Club",
+    "color": "Goldenrod",
+    "weight": 2732,
+    "origin": "Norway",
+    "date": {
+      "year": 2016,
+      "month": 6,
+      "day": 30
+    }
+  },
+  {
+    "id": 27,
+    "brand": "Kia",
+    "model": "Sportage",
+    "color": "Indigo",
+    "weight": 2738,
+    "origin": "Japan",
+    "date": {
+      "year": 2020,
+      "month": 5,
+      "day": 1
+    }
+  },
+  {
+    "id": 28,
+    "brand": "Maserati",
+    "model": "Quattroporte",
+    "color": "Yellow",
+    "weight": 823,
+    "origin": "China",
+    "date": {
+      "year": 2015,
+      "month": 12,
+      "day": 3
+    }
+  },
+  {
+    "id": 29,
+    "brand": "Mazda",
+    "model": "MPV",
+    "color": "Yellow",
+    "weight": 4744,
+    "origin": "Russia",
+    "date": {
+      "year": 2020,
+      "month": 4,
+      "day": 24
+    }
+  },
+  {
+    "id": 30,
+    "brand": "Mitsubishi",
+    "model": "Mighty Max",
+    "color": "Orange",
+    "weight": 2069,
+    "origin": "China",
+    "date": {
+      "year": 2004,
+      "month": 3,
+      "day": 18
+    }
+  },
+  {
+    "id": 31,
+    "brand": "Isuzu",
+    "model": "Stylus",
+    "color": "Blue",
+    "weight": 3127,
+    "origin": "Peru",
+    "date": {
+      "year": 2011,
+      "month": 4,
+      "day": 3
+    }
+  },
+  {
+    "id": 32,
+    "brand": "Toyota",
+    "model": "4Runner",
+    "color": "Mauv",
+    "weight": 755,
+    "origin": "Indonesia",
+    "date": {
+      "year": 2022,
+      "month": 3,
+      "day": 13
+    }
+  },
+  {
+    "id": 33,
+    "brand": "Jeep",
+    "model": "Compass",
+    "color": "Blue",
+    "weight": 2987,
+    "origin": "Japan",
+    "date": {
+      "year": 2004,
+      "month": 2,
+      "day": 1
+    }
+  },
+  {
+    "id": 34,
+    "brand": "Porsche",
+    "model": "911",
+    "color": "Orange",
+    "weight": 1646,
+    "origin": "Argentina",
+    "date": {
+      "year": 2016,
+      "month": 8,
+      "day": 2
+    }
+  },
+  {
+    "id": 35,
+    "brand": "Volvo",
+    "model": "C30",
+    "color": "Green",
+    "weight": 3259,
+    "origin": "Indonesia",
+    "date": {
+      "year": 2006,
+      "month": 4,
+      "day": 5
+    }
+  },
+  {
+    "id": 36,
+    "brand": "Aptera",
+    "model": "2e",
+    "color": "Turquoise",
+    "weight": 4040,
+    "origin": "China",
+    "date": {
+      "year": 2004,
+      "month": 10,
+      "day": 5
+    }
+  },
+  {
+    "id": 37,
+    "brand": "Lexus",
+    "model": "LX",
+    "color": "Aquamarine",
+    "weight": 4599,
+    "origin": "Dominican Republic",
+    "date": {
+      "year": 2003,
+      "month": 12,
+      "day": 3
+    }
+  },
+  {
+    "id": 38,
+    "brand": "Spyker",
+    "model": "C8 Double 12 S",
+    "color": "Aquamarine",
+    "weight": 4725,
+    "origin": "Russia",
+    "date": {
+      "year": 2011,
+      "month": 12,
+      "day": 5
+    }
+  },
+  {
+    "id": 39,
+    "brand": "Toyota",
+    "model": "Tacoma Xtra",
+    "color": "Maroon",
+    "weight": 2765,
+    "origin": "South Africa",
+    "date": {
+      "year": 2010,
+      "month": 7,
+      "day": 22
+    }
+  },
+  {
+    "id": 40,
+    "brand": "Jaguar",
+    "model": "XK",
+    "color": "Fuscia",
+    "weight": 1271,
+    "origin": "Afghanistan",
+    "date": {
+      "year": 2003,
+      "month": 4,
+      "day": 9
+    }
+  },
+  {
+    "id": 41,
+    "brand": "Nissan",
+    "model": "GT-R",
+    "color": "Turquoise",
+    "weight": 1724,
+    "origin": "China",
+    "date": {
+      "year": 2012,
+      "month": 8,
+      "day": 14
+    }
+  },
+  {
+    "id": 42,
+    "brand": "Hyundai",
+    "model": "Tiburon",
+    "color": "Orange",
+    "weight": 2862,
+    "origin": "China",
+    "date": {
+      "year": 2001,
+      "month": 7,
+      "day": 21
+    }
+  },
+  {
+    "id": 43,
+    "brand": "Ford",
+    "model": "Explorer Sport Trac",
+    "color": "Khaki",
+    "weight": 4578,
+    "origin": "Venezuela",
+    "date": {
+      "year": 2002,
+      "month": 11,
+      "day": 29
+    }
+  },
+  {
+    "id": 44,
+    "brand": "Chevrolet",
+    "model": "Avalanche 1500",
+    "color": "Blue",
+    "weight": 2403,
+    "origin": "Indonesia",
+    "date": {
+      "year": 2010,
+      "month": 9,
+      "day": 20
+    }
+  },
+  {
+    "id": 45,
+    "brand": "BMW",
+    "model": "X6",
+    "color": "Mauv",
+    "weight": 3847,
+    "origin": "Bolivia",
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 22
+    }
+  },
+  {
+    "id": 46,
+    "brand": "Nissan",
+    "model": "350Z",
+    "color": "Crimson",
+    "weight": 1123,
+    "origin": "Canada",
+    "date": {
+      "year": 2022,
+      "month": 8,
+      "day": 29
+    }
+  },
+  {
+    "id": 47,
+    "brand": "Audi",
+    "model": "A6",
+    "color": "Puce",
+    "weight": 4114,
+    "origin": "Russia",
+    "date": {
+      "year": 2006,
+      "month": 2,
+      "day": 21
+    }
+  },
+  {
+    "id": 48,
+    "brand": "Buick",
+    "model": "Skylark",
+    "color": "Indigo",
+    "weight": 670,
+    "origin": "Colombia",
+    "date": {
+      "year": 2019,
+      "month": 1,
+      "day": 1
+    }
+  },
+  {
+    "id": 49,
+    "brand": "Jaguar",
+    "model": "XK Series",
+    "color": "Pink",
+    "weight": 800,
+    "origin": "China",
+    "date": {
+      "year": 2015,
+      "month": 11,
+      "day": 27
+    }
+  },
+  {
+    "id": 50,
+    "brand": "Chrysler",
+    "model": "Town \u0026 Country",
+    "color": "Crimson",
+    "weight": 863,
+    "origin": "North Korea",
+    "date": {
+      "year": 2021,
+      "month": 10,
+      "day": 18
+    }
+  },
+  {
+    "id": 51,
+    "brand": "Rolls-Royce",
+    "model": "Phantom",
+    "color": "Turquoise",
+    "weight": 3090,
+    "origin": "Germany",
+    "date": {
+      "year": 2009,
+      "month": 5,
+      "day": 17
+    }
+  },
+  {
+    "id": 52,
+    "brand": "Chevrolet",
+    "model": "Silverado 2500",
+    "color": "Indigo",
+    "weight": 3480,
+    "origin": "Finland",
+    "date": {
+      "year": 2022,
+      "month": 10,
+      "day": 13
+    }
+  },
+  {
+    "id": 53,
+    "brand": "Lexus",
+    "model": "GS",
+    "color": "Teal",
+    "weight": 2228,
+    "origin": "China",
+    "date": {
+      "year": 2005,
+      "month": 9,
+      "day": 10
+    }
+  },
+  {
+    "id": 54,
+    "brand": "Chevrolet",
+    "model": "Silverado",
+    "color": "Pink",
+    "weight": 614,
+    "origin": "Panama",
+    "date": {
+      "year": 2004,
+      "month": 7,
+      "day": 4
+    }
+  },
+  {
+    "id": 55,
+    "brand": "Pontiac",
+    "model": "Grand Prix",
+    "color": "Blue",
+    "weight": 4759,
+    "origin": "Syria",
+    "date": {
+      "year": 2019,
+      "month": 3,
+      "day": 13
+    }
+  },
+  {
+    "id": 56,
+    "brand": "Mazda",
+    "model": "MX-6",
+    "color": "Yellow",
+    "weight": 3286,
+    "origin": "Philippines",
+    "date": {
+      "year": 2013,
+      "month": 1,
+      "day": 16
+    }
+  },
+  {
+    "id": 57,
+    "brand": "Maybach",
+    "model": "62",
+    "color": "Yellow",
+    "weight": 1197,
+    "origin": "Philippines",
+    "date": {
+      "year": 2014,
+      "month": 2,
+      "day": 6
+    }
+  },
+  {
+    "id": 58,
+    "brand": "Volkswagen",
+    "model": "Eos",
+    "color": "Purple",
+    "weight": 4612,
+    "origin": "Thailand",
+    "date": {
+      "year": 2004,
+      "month": 7,
+      "day": 10
+    }
+  },
+  {
+    "id": 59,
+    "brand": "Oldsmobile",
+    "model": "Toronado",
+    "color": "Khaki",
+    "weight": 1977,
+    "origin": "Morocco",
+    "date": {
+      "year": 2015,
+      "month": 4,
+      "day": 16
+    }
+  },
+  {
+    "id": 60,
+    "brand": "Mercedes-Benz",
+    "model": "E-Class",
+    "color": "Aquamarine",
+    "weight": 1793,
+    "origin": "South Africa",
+    "date": {
+      "year": 2006,
+      "month": 3,
+      "day": 17
+    }
+  },
+  {
+    "id": 61,
+    "brand": "Jaguar",
+    "model": "XJ Series",
+    "color": "Turquoise",
+    "weight": 3164,
+    "origin": "China",
+    "date": {
+      "year": 2010,
+      "month": 9,
+      "day": 9
+    }
+  },
+  {
+    "id": 62,
+    "brand": "Chevrolet",
+    "model": "Malibu",
+    "color": "Fuscia",
+    "weight": 779,
+    "origin": "Canada",
+    "date": {
+      "year": 2021,
+      "month": 10,
+      "day": 30
+    }
+  },
+  {
+    "id": 63,
+    "brand": "Saturn",
+    "model": "Outlook",
+    "color": "Turquoise",
+    "weight": 2617,
+    "origin": "Indonesia",
+    "date": {
+      "year": 2002,
+      "month": 4,
+      "day": 25
+    }
+  },
+  {
+    "id": 64,
+    "brand": "Isuzu",
+    "model": "i-290",
+    "color": "Turquoise",
+    "weight": 984,
+    "origin": "China",
+    "date": {
+      "year": 2016,
+      "month": 3,
+      "day": 5
+    }
+  },
+  {
+    "id": 65,
+    "brand": "Buick",
+    "model": "Park Avenue",
+    "color": "Khaki",
+    "weight": 755,
+    "origin": "Indonesia",
+    "date": {
+      "year": 2001,
+      "month": 7,
+      "day": 20
+    }
+  },
+  {
+    "id": 66,
+    "brand": "Plymouth",
+    "model": "Neon",
+    "color": "Pink",
+    "weight": 1121,
+    "origin": "South Africa",
+    "date": {
+      "year": 2017,
+      "month": 6,
+      "day": 25
+    }
+  },
+  {
+    "id": 67,
+    "brand": "BMW",
+    "model": "7 Series",
+    "color": "Mauv",
+    "weight": 1927,
+    "origin": "Brazil",
+    "date": {
+      "year": 2013,
+      "month": 2,
+      "day": 27
+    }
+  },
+  {
+    "id": 68,
+    "brand": "Studebaker",
+    "model": "Avanti",
+    "color": "Goldenrod",
+    "weight": 810,
+    "origin": "Japan",
+    "date": {
+      "year": 2001,
+      "month": 4,
+      "day": 30
+    }
+  },
+  {
+    "id": 69,
+    "brand": "Porsche",
+    "model": "944",
+    "color": "Red",
+    "weight": 881,
+    "origin": "China",
+    "date": {
+      "year": 2013,
+      "month": 12,
+      "day": 19
+    }
+  },
+  {
+    "id": 70,
+    "brand": "Ford",
+    "model": "F250",
+    "color": "Khaki",
+    "weight": 3571,
+    "origin": "Poland",
+    "date": {
+      "year": 2005,
+      "month": 12,
+      "day": 2
+    }
+  },
+  {
+    "id": 71,
+    "brand": "Oldsmobile",
+    "model": "Silhouette",
+    "color": "Mauv",
+    "weight": 1416,
+    "origin": "Malawi",
+    "date": {
+      "year": 2013,
+      "month": 6,
+      "day": 3
+    }
+  },
+  {
+    "id": 72,
+    "brand": "Oldsmobile",
+    "model": "Cutlass Cruiser",
+    "color": "Crimson",
+    "weight": 3381,
+    "origin": "Peru",
+    "date": {
+      "year": 2019,
+      "month": 11,
+      "day": 4
+    }
+  },
+  {
+    "id": 73,
+    "brand": "Nissan",
+    "model": "Altima",
+    "color": "Yellow",
+    "weight": 1670,
+    "origin": "Portugal",
+    "date": {
+      "year": 2007,
+      "month": 11,
+      "day": 29
+    }
+  },
+  {
+    "id": 74,
+    "brand": "Chevrolet",
+    "model": "3500",
+    "color": "Fuscia",
+    "weight": 2643,
+    "origin": "Argentina",
+    "date": {
+      "year": 2001,
+      "month": 12,
+      "day": 13
+    }
+  },
+  {
+    "id": 75,
+    "brand": "Cadillac",
+    "model": "Escalade",
+    "color": "Goldenrod",
+    "weight": 3774,
+    "origin": "Poland",
+    "date": {
+      "year": 2002,
+      "month": 11,
+      "day": 24
+    }
+  },
+  {
+    "id": 76,
+    "brand": "Mazda",
+    "model": "RX-8",
+    "color": "Red",
+    "weight": 1404,
+    "origin": "Lithuania",
+    "date": {
+      "year": 2007,
+      "month": 5,
+      "day": 24
+    }
+  },
+  {
+    "id": 77,
+    "brand": "Audi",
+    "model": "A8",
+    "color": "Turquoise",
+    "weight": 3877,
+    "origin": "Poland",
+    "date": {
+      "year": 2022,
+      "month": 6,
+      "day": 12
+    }
+  },
+  {
+    "id": 78,
+    "brand": "Nissan",
+    "model": "Murano",
+    "color": "Crimson",
+    "weight": 2017,
+    "origin": "Philippines",
+    "date": {
+      "year": 2003,
+      "month": 1,
+      "day": 2
+    }
+  },
+  {
+    "id": 79,
+    "brand": "Toyota",
+    "model": "RAV4",
+    "color": "Turquoise",
+    "weight": 4630,
+    "origin": "China",
+    "date": {
+      "year": 2013,
+      "month": 4,
+      "day": 15
+    }
+  },
+  {
+    "id": 80,
+    "brand": "Volkswagen",
+    "model": "Touareg",
+    "color": "Mauv",
+    "weight": 1187,
+    "origin": "China",
+    "date": {
+      "year": 2019,
+      "month": 8,
+      "day": 5
+    }
+  },
+  {
+    "id": 81,
+    "brand": "Toyota",
+    "model": "Prius",
+    "color": "Maroon",
+    "weight": 2250,
+    "origin": "Czech Republic",
+    "date": {
+      "year": 2004,
+      "month": 3,
+      "day": 2
+    }
+  },
+  {
+    "id": 82,
+    "brand": "Mercedes-Benz",
+    "model": "C-Class",
+    "color": "Red",
+    "weight": 1747,
+    "origin": "France",
+    "date": {
+      "year": 2018,
+      "month": 2,
+      "day": 27
+    }
+  },
+  {
+    "id": 83,
+    "brand": "BMW",
+    "model": "X5 M",
+    "color": "Red",
+    "weight": 3276,
+    "origin": "Philippines",
+    "date": {
+      "year": 2016,
+      "month": 2,
+      "day": 12
+    }
+  },
+  {
+    "id": 84,
+    "brand": "Cadillac",
+    "model": "CTS-V",
+    "color": "Indigo",
+    "weight": 2337,
+    "origin": "Ireland",
+    "date": {
+      "year": 2019,
+      "month": 8,
+      "day": 6
+    }
+  },
+  {
+    "id": 85,
+    "brand": "Mazda",
+    "model": "Mazda5",
+    "color": "Yellow",
+    "weight": 2171,
+    "origin": "France",
+    "date": {
+      "year": 2019,
+      "month": 4,
+      "day": 15
+    }
+  },
+  {
+    "id": 86,
+    "brand": "Dodge",
+    "model": "Ram Wagon B150",
+    "color": "Mauv",
+    "weight": 909,
+    "origin": "China",
+    "date": {
+      "year": 2010,
+      "month": 8,
+      "day": 8
+    }
+  },
+  {
+    "id": 87,
+    "brand": "Subaru",
+    "model": "Outback",
+    "color": "Turquoise",
+    "weight": 4650,
+    "origin": "Japan",
+    "date": {
+      "year": 2005,
+      "month": 2,
+      "day": 25
+    }
+  },
+  {
+    "id": 88,
+    "brand": "GMC",
+    "model": "3500 Club Coupe",
+    "color": "Mauv",
+    "weight": 4842,
+    "origin": "China",
+    "date": {
+      "year": 2012,
+      "month": 6,
+      "day": 28
+    }
+  },
+  {
+    "id": 89,
+    "brand": "Pontiac",
+    "model": "Grand Prix",
+    "color": "Crimson",
+    "weight": 1323,
+    "origin": "China",
+    "date": {
+      "year": 2019,
+      "month": 8,
+      "day": 3
+    }
+  },
+  {
+    "id": 90,
+    "brand": "Mazda",
+    "model": "Miata MX-5",
+    "color": "Puce",
+    "weight": 3580,
+    "origin": "Poland",
+    "date": {
+      "year": 2012,
+      "month": 12,
+      "day": 24
+    }
+  },
+  {
+    "id": 91,
+    "brand": "Saturn",
+    "model": "VUE",
+    "color": "Fuscia",
+    "weight": 1001,
+    "origin": "China",
+    "date": {
+      "year": 2020,
+      "month": 11,
+      "day": 21
+    }
+  },
+  {
+    "id": 92,
+    "brand": "Aston Martin",
+    "model": "V8 Vantage",
+    "color": "Mauv",
+    "weight": 2161,
+    "origin": "Philippines",
+    "date": {
+      "year": 2002,
+      "month": 9,
+      "day": 6
+    }
+  },
+  {
+    "id": 93,
+    "brand": "Volvo",
+    "model": "S40",
+    "color": "Aquamarine",
+    "weight": 1301,
+    "origin": "Estonia",
+    "date": {
+      "year": 2004,
+      "month": 1,
+      "day": 3
+    }
+  },
+  {
+    "id": 94,
+    "brand": "Ford",
+    "model": "Fairlane",
+    "color": "Red",
+    "weight": 574,
+    "origin": "China",
+    "date": {
+      "year": 2003,
+      "month": 9,
+      "day": 18
+    }
+  },
+  {
+    "id": 95,
+    "brand": "BMW",
+    "model": "5 Series",
+    "color": "Pink",
+    "weight": 4908,
+    "origin": "Vietnam",
+    "date": {
+      "year": 2001,
+      "month": 4,
+      "day": 15
+    }
+  },
+  {
+    "id": 96,
+    "brand": "Jeep",
+    "model": "Liberty",
+    "color": "Violet",
+    "weight": 3011,
+    "origin": "Thailand",
+    "date": {
+      "year": 2004,
+      "month": 5,
+      "day": 27
+    }
+  },
+  {
+    "id": 97,
+    "brand": "Oldsmobile",
+    "model": "Silhouette",
+    "color": "Purple",
+    "weight": 4870,
+    "origin": "Poland",
+    "date": {
+      "year": 2004,
+      "month": 8,
+      "day": 14
+    }
+  },
+  {
+    "id": 98,
+    "brand": "Land Rover",
+    "model": "LR2",
+    "color": "Teal",
+    "weight": 1617,
+    "origin": "China",
+    "date": {
+      "year": 2020,
+      "month": 6,
+      "day": 8
+    }
+  },
+  {
+    "id": 99,
+    "brand": "Buick",
+    "model": "Lucerne",
+    "color": "Blue",
+    "weight": 2239,
+    "origin": "Poland",
+    "date": {
+      "year": 2004,
+      "month": 3,
+      "day": 3
+    }
+  },
+  {
+    "id": 100,
+    "brand": "Mazda",
+    "model": "Tribute",
+    "color": "Purple",
+    "weight": 3027,
+    "origin": "Netherlands",
+    "date": {
+      "year": 2020,
+      "month": 10,
+      "day": 28
+    }
+  }
+]
