@@ -19,7 +19,8 @@ public class Main {
 //        carService.findOldestCar(fromFile);
 //        carService.findHeaviestCar(fromFile);
 //        carService.changeCarColor(fromFile, 25, "Red");
-        carService.addCarAndUpdateFile();
+//        carService.addCarAndUpdateFile();
+        carService.fileToJson(fromFile);
 
     }
 }

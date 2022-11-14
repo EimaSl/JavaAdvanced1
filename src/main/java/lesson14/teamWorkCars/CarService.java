@@ -1,8 +1,10 @@
 package lesson14.teamWorkCars;
 
-import org.json.simple.JSONObject;
+import com.google.gson.Gson;
 
-import java.io.*;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -141,13 +143,18 @@ public class CarService {
 
     }
 
-    public void fileToJson(){
-        //Creating a JSONObject object
-        JSONObject jsonObject = new JSONObject();
-        jsonObject.put("id", "brand");
-
-        File file = new File("cars.json");
-
-
+    public void fileToJson(ArrayList<Car> cars) {
+        // + added dependency
+        //<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+        String json = new Gson().toJson(cars);
+        try {
+            FileWriter file = new FileWriter("src/main/resources/output.json");
+            file.write(json);
+            file.close();
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        System.out.println("JSON file created");
     }
 }
