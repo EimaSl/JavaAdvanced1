@@ -75,7 +75,7 @@ public class CarService {
     }
 
     public ArrayList<Car> findCarsFromGivenCountry(ArrayList<Car> cars, String givenCountry) {
-        System.out.println("Find cars from given Contry :  " + givenCountry);
+        System.out.println("Find cars from given Country :  " + givenCountry);
         ArrayList<Car> carsFromGivenCountry = new ArrayList<>();
         for (Car car : cars) {
             if (givenCountry != null && car.getOrigin().equalsIgnoreCase(givenCountry)) {

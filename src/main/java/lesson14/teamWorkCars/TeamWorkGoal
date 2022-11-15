@@ -1,0 +1,19 @@
+ + Load data from the file
+ + Car class - encapsulated.
+ - arrayList of cars accessible in whole program. (Maybe in CarDatabase)
+ + Create CarService which would provide this list of functionality
+    + getAllCars
+    + findCarsByColor
+    + findCarsByModel
+    + findCarsByMake
+    + findCarsHeavierThanGivenWeight
+    + findCarsNewerThanGivenDate
+    + findCarsFromGivenCountry
+    + findOldestCar
+    + findHeaviestCar
+    + changeCarColor
+ - Create addCar, which scan user input to create: new car object and add it to the arrayList of cars in the CarDatabase
+ + Create addCar, which scan user input to create: new car object and add it to the file
+ - Write tests. BUT write a test after you implement a method. For example findCarsByColor, implement that methdo and then write a test right away.
+ - prideti Main klaseje logikos su meniu ir scanneriu
+ - papildomas bonusas -> parasyti esamus metodus naudojant streamus
