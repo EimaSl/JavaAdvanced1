@@ -1,6 +1,9 @@
 package lesson14.homeWork;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 public class MovieService {
@@ -30,22 +33,21 @@ public class MovieService {
     }
 
     public List<Movie> topFiveByCost(ArrayList<Movie> movies) {
-        System.out.println("Sorted by budget");
+        System.out.println("Sorted by TOP5");
 
-        List<Movie> sortedByBudget = movies.stream()
-                .sorted(Comparator.comparing(Movie::getBudget))
+        List<Movie> sortedByBudgetToTopList = movies.stream()
+                .sorted(Comparator.comparing(Movie::getBudget).reversed())
+                .limit(5)
                 .collect(Collectors.toList());
 
-        Optional<Movie> max = sortedByBudget.stream()
-                .sorted(Comparator.comparing(Movie::getBudget))
+        sortedByBudgetToTopList.forEach(movie -> System.out.println("\t\t\tBudget: "
+                + movie.getBudget() + "\t\t\tName " + movie.getName()));
+
+        /*Optional<Movie> max = sortedByBudget.stream()
                 .max(Comparator.comparingInt(Movie::getBudget));
+        System.out.print("Most Expensive: " + max);*/
 
-        sortedByBudget.forEach(movie -> System.out.println("\t\t\tBudget: " + movie.getBudget() + "\t\t\tName " + movie.getName()));
-
-        System.out.println();
-        System.out.println(max);
-
-        return sortedByBudget;
+        return sortedByBudgetToTopList;
     }
 
 
