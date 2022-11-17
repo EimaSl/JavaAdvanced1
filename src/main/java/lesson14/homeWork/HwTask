@@ -3,20 +3,21 @@ Uzduotis su MovieManager.
 + 1.Nuskaityti duomenis,patalpini i arrayLista.
 (Kuris gali buti MovieDatabase klaseje kaip statinis).
 Jei norite idomiau, bandykite nuskaityti ir naudoti json file, o ne txt.
- 2. Sukurti atitinkama Movie klase, su reikiamais laukais.
- 3. Sukurti MovieService, kuris butu atsakingas uz visa logika:
-        getAllMovies
-        getAllMovieCreators
-        getMoviesByGenre
-        findMovieByName
-        getMostExpensiveMovie
-        findMoviesAboveGivenBudgetMargin
-        findOldestMovie
-        findMoviesAboveGiveYearMaring
-        *sort movies by year
-        *sort movies by creator
-        * sort movies by budget
- 4. Create a menu for user, to use your implement logic.
++ 2. Sukurti atitinkama Movie klase, su reikiamais laukais.
++ 3. Sukurti MovieService, kuris butu atsakingas uz visa logika:
+        + getAllMovies
+        + getAllMovieCreators
+        + getMoviesByGenre
+        + findMovieByName
+        + getMostExpensiveMovie
+        + findMoviesAboveGivenBudgetMargin
+        + findOldestMovie / latest
+        + findMoviesAboveGiveYearMargin
+        + *sort movies by year
+        + *sort movies by creator
+        + *sort movies by budget
+        + *sort movies Top5 by budget
+ + 4. Create a menu for user, to use your implement logic.
  5. Write unit tests
  6. Create logic to add movie to a database,
         update existing movie
