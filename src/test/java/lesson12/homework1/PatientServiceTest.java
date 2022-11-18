@@ -7,27 +7,17 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class PatientServiceTest {
 
+
+    PatientService patientService = new PatientService();
+
     @org.junit.jupiter.api.Test
     void getOldestPatient() throws IOException {
-        //given
-        PatientService patientService = new PatientService();
-        ReadingFromFileToArrayList readingFromFileToArrayList= new ReadingFromFileToArrayList();
-        //when
-        ArrayList<Patient> patients = readingFromFileToArrayList.readPatients();
-//        patients.add(new Patient("Tom", 100, "A+", 200, 200));
-        //then
-        assertEquals(62, patientService.getOldestPatient(50));
+
     }
 
     @org.junit.jupiter.api.Test
     void getNamesStartsWith() throws IOException {
-        //given
-        PatientService patientService = new PatientService();
-        ReadingFromFileToArrayList readingFromFileToArrayList= new ReadingFromFileToArrayList();
-        //when
-        ArrayList<Patient> patients = readingFromFileToArrayList.readPatients();
-        //then
-        assertEquals(1, patientService.getNamesStartsWith("Da"));
+
     }
 
     @org.junit.jupiter.api.Test
