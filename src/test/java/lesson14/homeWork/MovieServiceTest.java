@@ -1,15 +1,14 @@
 package lesson14.homeWork;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import java.io.ByteArrayInputStream;
-import java.io.InputStream;
+import java.io.IOException;
 import java.time.Year;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class MovieServiceTest {
 
@@ -19,9 +18,9 @@ class MovieServiceTest {
     @Test
     void getAllMoviesNames() {
         //given
-        Movie movie1 = new Movie(1,"Mokinuosi","Documentary","Maciaszczyk","Costa Rica",5, Year.of(1993));
-        Movie movie2 = new Movie(3,"Rasyti","Comedy","Maciaszczyk","Costa Rica",10, Year.of(1995));
-        Movie movie3 = new Movie(2,"Testukus","Drama|Comedy","Maciaszczyk","Costa Rica",15, Year.of(1997));
+        Movie movie1 = new Movie(1, "Mokinuosi", "Documentary", "Maciaszczyk", "Costa Rica", 5, Year.of(1993));
+        Movie movie2 = new Movie(3, "Rasyti", "Comedy", "Maciaszczyk", "Costa Rica", 10, Year.of(1995));
+        Movie movie3 = new Movie(2, "Testukus", "Drama|Comedy", "Maciaszczyk", "Costa Rica", 15, Year.of(1997));
         movie.add(movie1);
         movie.add(movie2);
         movie.add(movie3);
@@ -34,9 +33,9 @@ class MovieServiceTest {
     @Test
     void getAllMoviesNamesSortedByName() {
         //given
-        Movie movie1 = new Movie(1,"As Mokinuosi","Documentary","Maciaszczyk","Costa Rica",5, Year.of(1993));
-        Movie movie2 = new Movie(3,"Rasyti","Comedy","Maciaszczyk","Costa Rica",10, Year.of(1995));
-        Movie movie3 = new Movie(2,"Testukus","Drama|Comedy","Maciaszczyk","Costa Rica",15, Year.of(1997));
+        Movie movie1 = new Movie(1, "As Mokinuosi", "Documentary", "Maciaszczyk", "Costa Rica", 5, Year.of(1993));
+        Movie movie2 = new Movie(3, "Rasyti", "Comedy", "Maciaszczyk", "Costa Rica", 10, Year.of(1995));
+        Movie movie3 = new Movie(2, "Testukus", "Drama|Comedy", "Maciaszczyk", "Costa Rica", 15, Year.of(1997));
         movie.add(movie1);
         movie.add(movie2);
         movie.add(movie3);
@@ -50,9 +49,9 @@ class MovieServiceTest {
     @Test
     void getAllMoviesByCreator() {
         //given
-        Movie movie1 = new Movie(1,"As Mokinuosi","Documentary","AMaciaszczyk","Costa Rica",5, Year.of(1993));
-        Movie movie2 = new Movie(3,"Rasyti","Comedy","BMaciaszczyk","Costa Rica",10, Year.of(1995));
-        Movie movie3 = new Movie(2,"Testukus","Drama|Comedy","CMaciaszczyk","Costa Rica",15, Year.of(1997));
+        Movie movie1 = new Movie(1, "As Mokinuosi", "Documentary", "AMaciaszczyk", "Costa Rica", 5, Year.of(1993));
+        Movie movie2 = new Movie(3, "Rasyti", "Comedy", "BMaciaszczyk", "Costa Rica", 10, Year.of(1995));
+        Movie movie3 = new Movie(2, "Testukus", "Drama|Comedy", "CMaciaszczyk", "Costa Rica", 15, Year.of(1997));
         movie.add(movie1);
         movie.add(movie2);
         movie.add(movie3);
@@ -92,9 +91,9 @@ class MovieServiceTest {
     @Test
     void getAllMoviesByGenre() {
         //given
-        Movie movie1 = new Movie(1,"As Mokinuosi","Documentary","AMaciaszczyk","Costa Rica",5, Year.of(1993));
-        Movie movie2 = new Movie(3,"Rasyti","Comedy","BMaciaszczyk","Costa Rica",10, Year.of(1995));
-        Movie movie3 = new Movie(2,"Testukus","Drama|Comedy","CMaciaszczyk","Costa Rica",15, Year.of(1997));
+        Movie movie1 = new Movie(1, "As Mokinuosi", "Documentary", "AMaciaszczyk", "Costa Rica", 5, Year.of(1993));
+        Movie movie2 = new Movie(3, "Rasyti", "Comedy", "BMaciaszczyk", "Costa Rica", 10, Year.of(1995));
+        Movie movie3 = new Movie(2, "Testukus", "Drama|Comedy", "CMaciaszczyk", "Costa Rica", 15, Year.of(1997));
         movie.add(movie1);
         movie.add(movie2);
         movie.add(movie3);
@@ -109,9 +108,9 @@ class MovieServiceTest {
     @Test
     void sortByBudgetDescending() {
         //given
-        Movie movie1 = new Movie(1,"As Mokinuosi","Documentary","AMaciaszczyk","Costa Rica",5, Year.of(1993));
-        Movie movie2 = new Movie(3,"Rasyti","Comedy","BMaciaszczyk","Costa Rica",10, Year.of(1995));
-        Movie movie3 = new Movie(2,"Testukus","Drama|Comedy","CMaciaszczyk","Costa Rica",15, Year.of(1997));
+        Movie movie1 = new Movie(1, "As Mokinuosi", "Documentary", "AMaciaszczyk", "Costa Rica", 5, Year.of(1993));
+        Movie movie2 = new Movie(3, "Rasyti", "Comedy", "BMaciaszczyk", "Costa Rica", 10, Year.of(1995));
+        Movie movie3 = new Movie(2, "Testukus", "Drama|Comedy", "CMaciaszczyk", "Costa Rica", 15, Year.of(1997));
         movie.add(movie1);
         movie.add(movie2);
         movie.add(movie3);
@@ -124,14 +123,34 @@ class MovieServiceTest {
 
     @Test
     void findMovieByName() {
+
     }
 
     @Test
     void latestOldestMovie() {
+        //given
+        //n/a
     }
 
     @Test
-    void findMoviesAboveGivenBudget() {
+    @DisplayName("Test with ")
+    void findMoviesAboveGivenBudget() throws IOException {
+//        //given
+//
+//        Movie movie1 = new Movie(1, "As Mokinuosi", "Documentary", "AMaciaszczyk", "Costa Rica", 5, Year.of(1993));
+//        Movie movie2 = new Movie(3, "Rasyti", "Comedy", "BMaciaszczyk", "Costa Rica", 10, Year.of(1995));
+//        Movie movie3 = new Movie(2, "Testukus", "Drama|Comedy", "CMaciaszczyk", "Costa Rica", 15, Year.of(1997));
+//        movie.add(movie1);
+//        movie.add(movie2);
+//        movie.add(movie3);
+//        Menu menu =new Menu();
+//
+//       menu.inputFromUserForRequestedMarginAbove()
+//
+//        //when
+//        List<Movie> moviesAboveGiveYearMargin = movieService.findMoviesAboveGiveYearMargin(movie, inputFromUserForRequestedMarginAbove);
+//        //then
+//        assertEquals(15, moviesAboveGiveYearMargin.get(0).getBudget());
     }
 
     @Test

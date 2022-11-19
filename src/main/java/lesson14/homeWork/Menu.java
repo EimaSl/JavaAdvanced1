@@ -1,6 +1,7 @@
 package lesson14.homeWork;
 
 import java.io.IOException;
+import java.time.Year;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -14,6 +15,7 @@ public class Menu {
 
     public void menuX() {
         menuSelection();
+        System.out.print("Your selection: \t\t\t");
         int selectedOption = scanner.nextInt();
         menuFunctionality(selectedOption);
     }
@@ -38,32 +40,63 @@ public class Menu {
         if (selectedOption == 2) {
             movieService.getAllMoviesByCreator(listOfMoviesFromTxTFile);
             menuX();
-        }        if (selectedOption == 3) {
+        }
+        if (selectedOption == 3) {
             movieService.getAllMoviesNamesSortedByName(listOfMoviesFromTxTFile);
             menuX();
-        }        if (selectedOption == 4) {
+        }
+        if (selectedOption == 4) {
             movieService.getAllMoviesByGenre(listOfMoviesFromTxTFile);
             menuX();
-        }        if (selectedOption == 5) {
-            movieService.findMovieByName(listOfMoviesFromTxTFile);
+        }
+        if (selectedOption == 5) {
+            movieService.findMovieByName(listOfMoviesFromTxTFile, inputFromUserForMovieToFindByName());
             menuX();
-        }        if (selectedOption == 6) {
+        }
+        if (selectedOption == 6) {
             movieService.sortByBudgetDescending(listOfMoviesFromTxTFile);
             menuX();
-        }        if (selectedOption == 7) {
-            movieService.findMoviesAboveGivenBudget(listOfMoviesFromTxTFile);
+        }
+        if (selectedOption == 7) {
+            movieService.findMoviesAboveGivenBudget(listOfMoviesFromTxTFile, inputFromUserForRequestedMarginAbove());
             menuX();
-        }        if (selectedOption == 8) {
+        }
+        if (selectedOption == 8) {
             movieService.latestOldestMovie(listOfMoviesFromTxTFile);
             menuX();
-        }        if (selectedOption == 9) {
-            movieService.findMoviesAboveGiveYearMargin(listOfMoviesFromTxTFile);
+        }
+        if (selectedOption == 9) {
+            movieService.findMoviesAboveGiveYearMargin(listOfMoviesFromTxTFile, inputFromUserForFirstYear(),inputFromUserForSecondYear());
             menuX();
-        }        if (selectedOption == 10) {
+        }
+        if (selectedOption == 10) {
             movieService.topFiveByCost(listOfMoviesFromTxTFile);
             menuX();
         }
     }
+
     public Menu() throws IOException {
+    }
+
+    public String inputFromUserForMovieToFindByName() {
+        System.out.println("Enter movie name to find, by first letters");
+        String movieTofFind = scanner.next();
+        return movieTofFind;
+    }
+
+    public Integer inputFromUserForRequestedMarginAbove() {
+        System.out.println("Please provide margin above you are interested ");
+        int inputMargin = Integer.parseInt(scanner.next());
+        return inputMargin;
+    }
+    public Year inputFromUserForFirstYear() {
+        System.out.println("Please enter Year search from date");
+        Year inputFirstYear = Year.parse(scanner.next());
+        return inputFirstYear;
+    }
+    public Year inputFromUserForSecondYear() {
+        System.out.println("Please enter year to movie date");
+        Year inputSecondYear = Year.parse(scanner.next());
+        return inputSecondYear;
     }
 }

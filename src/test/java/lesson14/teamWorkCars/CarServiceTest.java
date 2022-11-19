@@ -14,16 +14,20 @@ class CarServiceTest {
     @Test
     void findCarsByColor() {
         //given
-
         ArrayList<Car> cars = new ArrayList<>();
         Car car = new Car(3, "Mitsubishi", "Mirage", "Blue", 529, "Latvia", LocalDate.parse("2020-06-28"));
         Car car1 = new Car(4, "Volvo", "Tanke", "Blue", 529, "Lithuania", LocalDate.parse("2020-06-28"));
+        Car car2 = new Car(4, "Volvo", "Tanke", "Red", 529, "Lithuania", LocalDate.parse("2020-06-28"));
         cars.add(car);
         cars.add(car1);
+        cars.add(car2);
+        cars.add(null);
         //when
+
         cars = carService.findCarsByColor(cars, "Blue");
         //then
-        assertEquals("Blue", car.getColor());
+        assertEquals("Blue", cars.get(0).getColor());
+        assertEquals(2, cars.size());
         assertEquals("Mitsubishi", cars.get(0).getBrand());
         assertEquals("Volvo", cars.get(1).getBrand());
     }

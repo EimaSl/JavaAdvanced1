@@ -16,7 +16,6 @@ public class Car {
     public Car() {
     }
 
-
     public Car(int id, String brand, String model, String color, int weight, String origin, LocalDate date) {
         this.id = id;
         this.brand = brand;

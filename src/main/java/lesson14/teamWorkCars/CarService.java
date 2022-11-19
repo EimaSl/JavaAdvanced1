@@ -23,11 +23,15 @@ public class CarService {
         System.out.println("Find cars with color " + color);
         ArrayList<Car> carByColor = new ArrayList<>();
         for (Car car : cars) {
-            if (car.getColor() != null && car.getColor().equals(color) && !car.getColor().isEmpty()) {
+            if (isCarValid(color, car)) {
                 carByColor.add(car);
             }
         }
         return carByColor;
+    }
+
+    private boolean isCarValid(String color, Car car) {
+        return car != null && car.getColor() != null && car.getColor().equals(color) && !car.getColor().isEmpty();
     }
 
     public ArrayList<Car> findCarsByModel(ArrayList<Car> cars, String model) {
@@ -106,7 +110,6 @@ public class CarService {
     public Car findHeaviestCar(ArrayList<Car> cars) {
         System.out.println("Heaviest car :  ");
         Car heaviestCar = new Car();
-        heaviestCar.setWeight(0);
 
         for (Car car : cars) {
             if (car.getWeight() > heaviestCar.getWeight()) {
@@ -131,6 +134,7 @@ public class CarService {
 
     public void addCarAndUpdateFile() throws IOException {
         Scanner scanner = new Scanner(System.in);
+        //true stands for for update current
         FileWriter fileWriter = new FileWriter("src/main/resources/Cars", true);
         BufferedWriter bw = new BufferedWriter(fileWriter);
 

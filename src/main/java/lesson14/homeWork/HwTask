@@ -18,7 +18,7 @@ Jei norite idomiau, bandykite nuskaityti ir naudoti json file, o ne txt.
         + *sort movies by budget
         + *sort movies Top5 by budget
  + 4. Create a menu for user, to use your implement logic.
- 5. Write unit tests
+ / 5. Write unit tests
  6. Create logic to add movie to a database,
         update existing movie
         delete movie from the database
